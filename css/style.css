@@ -1,0 +1,134 @@
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+.mainbacground{
+    background-color: #E9EDF3; 
+}
+
+.mybackground {
+    background-color: #E9EDF3 !important;
+    /* transition: 1.5s ease-in; */
+  }
+  
+  .mybackground.scrolled {
+    background-color: white !important; 
+  }
+
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+.nav-item:hover .nav-link{
+    color: #7153d9;
+}
+.main-subtitle{
+    font-size: 24px;
+    color: #7153d9;
+    font-weight: 500;
+}
+.main-title{
+    font-size: 72px;
+    font-weight: 500;
+}
+.main-p{
+    font-size: 24px;
+    color: #54545f;
+    font-weight: 400;
+}
+.main-btn{
+    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+    padding: 20px 55px;
+    text-decoration: none;
+    color: white;
+    border-radius: 35px;
+}
+.feature-icon{
+    background-color: #f2f5fb;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 97px;
+}
+.service-subtitle{
+    font-size: 18px;
+    color: #7153d9;
+    font-weight: 500;
+    letter-spacing: 9px;
+}
+.service-title{
+    font-size: 60px;
+    font-weight: 500;
+}
+.mycard{
+    box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1), 11px 6px 25px rgba(69, 38, 177, 0.1);
+    border-radius: 20px;
+}
+.mycard p{
+    font-size: 18px;
+}
+.mycard h3:hover{
+    color: #0a58ca;
+}
+.readmore{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: .3s;
+}
+.readmore:hover{
+    color: #4526b1;
+    margin-left: 10px;
+}
+
+
+/* media queries */
+
+/* mobile */
+@media (max-width:576px) {
+    .main-title{
+        font-size: 36px;
+    }
+    .main-subtitle{
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    .banner-img{
+        margin-top: 40px;
+    }
+    .feature-card{
+        margin: 10px 0px;
+    }
+    .img2{
+        margin-top: 20px;
+    }
+    .service-title{
+        font-size: 30px;
+    }
+    .service-p{
+        font-size: 16px;
+    }
+    .service-section{
+        padding: 0px 10px !important;
+    }
+
+}
+
+
+/* tablet */
+@media (min-width:577px) and (max-width:991px){
+    .main-title{
+        font-size: 50px;
+    }
+}
+
+
+
+/* large */
+@media (min-width:992px) {
+    
+}
